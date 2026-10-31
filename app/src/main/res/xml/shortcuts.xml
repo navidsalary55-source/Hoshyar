@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="chat" android:enabled="true" android:shortcutShortLabel="@string/sc_chat">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="com.example.aihub"
+            android:targetClass="com.example.aihub.MainActivity">
+            <extra android:name="screen" android:value="CHAT" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="voice" android:enabled="true" android:shortcutShortLabel="@string/sc_voice">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="com.example.aihub"
+            android:targetClass="com.example.aihub.MainActivity">
+            <extra android:name="screen" android:value="VOICE_CHAT" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="vision" android:enabled="true" android:shortcutShortLabel="@string/sc_vision">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="com.example.aihub"
+            android:targetClass="com.example.aihub.MainActivity">
+            <extra android:name="screen" android:value="VISION" />
+        </intent>
+    </shortcut>
+    <shortcut android:shortcutId="notes" android:enabled="true" android:shortcutShortLabel="@string/sc_notes">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="com.example.aihub"
+            android:targetClass="com.example.aihub.MainActivity">
+            <extra android:name="screen" android:value="NOTES" />
+        </intent>
+    </shortcut>
+</shortcuts>
