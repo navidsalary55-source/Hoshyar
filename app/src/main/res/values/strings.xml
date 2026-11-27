@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">هوش مصنوعی هوشیار</string>
+    <string name="sc_chat">چت</string>
+    <string name="sc_voice">چت صوتی</string>
+    <string name="sc_vision">عکس‌خوان</string>
+    <string name="sc_notes">یادداشت صوتی</string>
+    <string name="notif_channel">یادآور روزانه</string>
+</resources>
